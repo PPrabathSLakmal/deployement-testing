@@ -22,5 +22,12 @@ h1::after{
   animation-name: move;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-
+}
+@keyframes move {
+  from, to{
+    left: -10%;
+  }
+  50%, 99%{
+    left: 110%;
+  }
 }
